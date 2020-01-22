@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="225dp">
+
+            <ImageView
+                android:id="@+id/activity_formulario_aluno_foto"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/person" />
+            <Button
+                android:id="@+id/activity_formulario_aluno_botao_foto"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/fundo"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dp"/>
+
+        </RelativeLayout>
+
+
+
+        <EditText
+            android:id="@+id/activity_formulario_aluno_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/nome"
+            android:inputType="textCapWords"
+            android:importantForAutofill="no"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/activity_formulario_aluno_telefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/telefone"
+            android:inputType="phone"
+            android:importantForAutofill="no"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/activity_formulario_aluno_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:importantForAutofill="no"
+            tools:targetApi="o" />
+
+        <Button
+            android:id="@+id/activity_formulario_aluno_seleciona_compras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COMPRAS" />
+
+        <TextView
+            android:id="@+id/TesteText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="COMPRAS"/>
+
+        <ListView
+            android:id="@+id/activity_formulario_aluno_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
